@@ -1,8 +1,6 @@
 @import "bourbon";
 @import "neat";
 
-$base-color: #1c1d1c;
-
 @mixin center($top, $left) {
   top: $top;
   left: $left;
@@ -18,7 +16,7 @@ body {
 #header {
   height: 60px;
   width: 100%;
-  background: $base-color;
+  background: #1c1d1c;
   opacity: 0.9;
 }
 
