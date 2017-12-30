@@ -1,2 +1,13 @@
 @import "bourbon";
 @import "neat";
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+}
