@@ -4,6 +4,7 @@ var autoprefix = require("gulp-autoprefixer"),
     bourbon    = require("bourbon").includePaths,
     neat       = require("bourbon-neat").includePaths,
     sass       = require("gulp-sass");
+    image      = require('gulp-image');
 
 var paths = {
   scss: ["./source/assets/stylesheets/**/*.scss"]
