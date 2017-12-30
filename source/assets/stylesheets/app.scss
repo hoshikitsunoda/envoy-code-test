@@ -3,15 +3,30 @@
 
 $base-color: #1c1d1c;
 
+@mixin center($top, $left) {
+  top: $top;
+  left: $left;
+  transform: translate(-50%, -50%);
+}
+
 html,
 body {
   margin: 0;
   height: 100vh;
 }
 
-.header {
+#header {
   height: 60px;
   width: 100%;
   background: $base-color;
   opacity: 0.9;
+}
+
+#nav-links {
+  @include center(50%, 50%);
+
+  position: relative;
+  margin: 0;
+  width: 940px;
+  height: 60px;
 }
