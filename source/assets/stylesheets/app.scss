@@ -1,6 +1,8 @@
 @import "bourbon";
 @import "neat";
 
+$base-color: #1c1d1c;
+
 html,
 body {
   margin: 0;
@@ -10,4 +12,6 @@ body {
 .header {
   height: 60px;
   width: 100%;
+  background: $base-color;
+  opacity: 0.9;
 }
