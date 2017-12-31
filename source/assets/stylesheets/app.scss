@@ -16,42 +16,10 @@ body {
   height: 100vh;
 }
 
-#header {
-  position: relative;
-  height: 60px;
-  width: 100%;
-  background: #1c1d1c;
-  opacity: 0.9;
-}
-
-#nav-links {
-  @include center(50%, 50%);
-
-  position: absolute;
-  margin: 0;
-  width: 940px;
-  height: 60px;
-}
-
-#logo {
-  position: relative;
-  float: left;
-  width: 100px;
-  height: 58px;
-  top: 8px;
-  margin: 0;
-  font-size: 30px;
-  color: #9ca0a6;
-}
-
-#about {
-  color: #9fa09f;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 22px;
   padding: 0;
   overflow: hidden;
 }
@@ -70,4 +38,46 @@ li a {
 
 li a:hover {
   color: #b24c47;
+}
+
+#header {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  background: #1c1d1c;
+  opacity: 0.9;
+}
+
+#nav-links {
+  @include center(50%, 50%);
+
+  position: absolute;
+  margin: 0;
+  width: 940px;
+  height: 70px;
+}
+
+#logo {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 68px;
+  top: 13px;
+  margin: 0;
+  font-size: 35px;
+  color: #9ca0a6;
+}
+
+#about {
+  color: #9fa09f;
+}
+
+#twitter-container {
+  position: relative;
+  float: right;
+  right: 250px;
+  width: 200px;
+  height: 50px;
+  top: 20px;
+  background-color: #464544;
 }
