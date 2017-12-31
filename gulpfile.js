@@ -5,6 +5,7 @@ var autoprefix = require("gulp-autoprefixer"),
     neat       = require("bourbon-neat").includePaths,
     sass       = require("gulp-sass");
     image      = require('gulp-image');
+    browserSync = require('browser-sync')
 
 var paths = {
   scss: ["./source/assets/stylesheets/**/*.scss"]
@@ -29,6 +30,12 @@ gulp.task("connect", function() {
   });
 });
 
-gulp.task("default", ["sass", "connect"], function() {
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        proxy: "localhost:8000"
+    });
+});
+
+gulp.task("default", ["sass", "connect", 'browser-sync'], function() {
   gulp.watch(paths.scss, ["sass"]);
 });
