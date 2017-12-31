@@ -3,10 +3,13 @@
   "dependencies": {
     "bourbon": "^5.0.0-beta.8",
     "bourbon-neat": "^2.1.0",
+    "browser-sync": "^2.23.1",
+    "express": "^4.16.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-connect": "^5.0.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "mongodb": "^3.0.1"
   },
   "description": "",
   "keywords": [
@@ -17,7 +20,16 @@
     "starter"
   ],
   "license": "ISC",
-  "main": "gulfile.js",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon app.js",
+    "seed": "node seed.js"
+  },
   "name": "",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp-image": "^4.2.0",
+    "nodemon": "^1.14.6"
+  }
 }
