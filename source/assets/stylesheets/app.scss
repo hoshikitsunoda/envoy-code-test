@@ -9,11 +9,15 @@
 
 html,
 body {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
   margin: 0;
+  padding: 0;
   height: 100vh;
 }
 
 #header {
+  position: relative;
   height: 60px;
   width: 100%;
   background: #1c1d1c;
@@ -23,8 +27,47 @@ body {
 #nav-links {
   @include center(50%, 50%);
 
-  position: relative;
+  position: absolute;
   margin: 0;
   width: 940px;
   height: 60px;
+}
+
+#logo {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 58px;
+  top: 8px;
+  margin: 0;
+  font-size: 30px;
+  color: #9ca0a6;
+}
+
+#about {
+  color: #9fa09f;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #b24c47;
 }
