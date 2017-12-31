@@ -112,3 +112,11 @@ li a:hover {
   top: 20px;
   right: 250px;
 }
+
+#white-plus {
+  @include center(50%, 50%);
+
+  position: relative;
+  color: #fffefb;
+  font-size: 24px;
+}
