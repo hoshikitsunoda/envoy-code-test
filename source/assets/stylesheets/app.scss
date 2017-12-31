@@ -7,6 +7,11 @@
   transform: translate(-50%, -50%);
 }
 
+@mixin container($width, $height) {
+  width: $width;
+  height: $height;
+}
+
 html,
 body {
   font-family: 'Oswald', sans-serif;
@@ -95,4 +100,15 @@ li a:hover {
   width: 100%;
   left: 65px;
   top: -2px;
+}
+
+#red-box {
+  @include container(50px, 50px);
+
+  background-color: #e24b31;
+  position: relative;
+  margin: 0;
+  float: right;
+  top: 20px;
+  right: 250px;
 }
