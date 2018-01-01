@@ -142,3 +142,12 @@ li a:hover {
   background-color: lighten(blue, 50);
   z-index: -1;
 }
+
+#catch {
+  position: absolute;
+  font-size: 54px;
+  color: #d93a2f;
+  line-height: 60px;
+
+  @include center(35%, 54.5%)
+}
