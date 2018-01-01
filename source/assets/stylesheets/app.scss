@@ -39,6 +39,7 @@ li a {
   text-align: center;
   padding: 14px 8px 14px 14px;
   text-decoration: none;
+  font-size: 14px;
 }
 
 li a:hover {
@@ -47,7 +48,7 @@ li a:hover {
 
 #header {
   position: relative;
-  height: 60px;
+  height: 58px;
   width: 100%;
   background: #1c1d1c;
   opacity: 0.9;
@@ -59,14 +60,14 @@ li a:hover {
   position: absolute;
   margin: 0;
   width: 940px;
-  height: 60px;
+  height: 58px;
 }
 
 #logo {
   position: relative;
   float: left;
   width: 100px;
-  height: 58px;
+  height: 56px;
   top: 5px;
   margin: 0;
   font-size: 35px;
@@ -82,28 +83,28 @@ li a:hover {
   float: right;
   right: 250px;
   width: 160px;
-  height: 40px;
+  height: 38px;
   top: 20px;
   background-color: #464544;
 }
 
 #twitter-logo {
   color: #6dddde;
-  font-size: 26px;
-  padding: 8px 0 0 23px;
+  font-size: 24px;
+  padding: 6px 0 0 19px;
 }
 
 #twitter-text {
   color: #6dddde;
   position: absolute;
-  font-size: 12px;
+  font-size: 14px;
   width: 100%;
-  left: 60px;
-  top: -1px;
+  left: 55px;
+  top: -7px;
 }
 
 #red-box {
-  @include container(40px, 40px);
+  @include container(38px, 38px);
 
   background-color: #e24b31;
   position: relative;
@@ -114,11 +115,11 @@ li a:hover {
 }
 
 #white-plus {
-  @include center(50%, 50%);
+  @include center(42%, 50%);
 
   position: relative;
   color: #fffefb;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #wrapper {
