@@ -199,3 +199,24 @@ li a:hover {
 #grey-indicator {
   background-color: #9f9fa7;
 }
+
+.chevrons {
+  @include center(94%, 85%);
+
+  position: relative;
+  width: 200px;
+  bottom: 0;
+  right: 0;
+  color: red;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+#chevron-left {
+  color: #d93a2f;
+  margin-right: 7px;
+}
+
+#chevron-right {
+  color: #f8f9f8;
+}
