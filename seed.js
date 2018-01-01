@@ -10,7 +10,7 @@ MongoClient.connect(url, (err, client) => {
 
   const db = client.db(dbName)
 
-  db.collection.insertOne(
-      { id: 1, url: 'upload/envoy-logo.png'}
+  db.collections.insertMany(
+      { id: 1, url: 'public/django_photo.png'}
     )
 })
