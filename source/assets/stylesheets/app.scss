@@ -168,3 +168,34 @@ li a:hover {
   color: #d93a2f;
   text-decoration: none;
 }
+
+#indicator-wrap {
+  @include center(96%, 54%);
+
+  position: relative;
+  list-style-type: none;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.indicator {
+  @include container(10px, 10px)
+
+  float: left;
+  display: block;
+  background-color: #fefffe;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 10.5px;
+}
+
+#red-indicator {
+  background-color: #d93a2f;
+}
+
+#grey-indicator {
+  background-color: #9f9fa7;
+}
