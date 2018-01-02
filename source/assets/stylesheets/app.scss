@@ -238,3 +238,10 @@ li a:hover {
   background-color: #1c1d1c;
   bottom: 0;
 }
+
+#intro {
+  @include center(13.5%, 50.5%);
+
+  position: absolute;
+  width: 940px;
+}
