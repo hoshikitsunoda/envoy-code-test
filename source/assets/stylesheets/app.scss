@@ -263,3 +263,12 @@ li a:hover {
   letter-spacing: 0;
   line-height: 32px;
 }
+
+#divider {
+  @include center(24.5%, 50.5%);
+
+  height: 5px;
+  width: 940px;
+  position: relative;
+  background-color: #272827;
+}
