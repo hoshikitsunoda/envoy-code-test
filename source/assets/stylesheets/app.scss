@@ -201,22 +201,31 @@ li a:hover {
 }
 
 .chevrons {
-  @include center(94%, 85%);
+  @include center(94.5%, 80.5%);
 
   position: relative;
-  width: 200px;
+  width: 55px;
   bottom: 0;
   right: 0;
-  color: red;
-  font-weight: lighter;
-  font-size: 36px;
 }
 
-#chevron-left {
-  color: #d93a2f;
-  margin-right: 7px;
-}
+.arrow {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
 
-#chevron-right {
-  color: #f8f9f8;
+  &.left {
+    left: 0;
+    transform: translate3d(0, -50%, 0) rotate(-135deg);
+    border-top: 5px solid #dd4e36;
+    border-right: 5px solid #dd4e36;
+  }
+
+  &.right {
+    right: 0;
+    transform: translate3d(0, -50%, 0) rotate(45deg);
+    border-top: 5px solid #f8f9f8;
+    border-right: 5px solid #f8f9f8;
+  }
 }
