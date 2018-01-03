@@ -231,7 +231,7 @@ li a:hover {
 
 #footer {
   position: relative;
-  top: 9px;
+  top: -6px;
   height: 1200px;
   width: 100%;
   background-color: #1c1d1c;
@@ -280,59 +280,41 @@ li a:hover {
   background-color: #272827;
 }
 
-.footer-contents-wrapper {
+.footer-contents {
+  @include center(42.8%, 50.5%);
+
   position: relative;
-  margin: 0;
-  top: 250px;
+  height: 500px;
 }
 
-#work {
+.footer-title-box-work {
+  height: 41px;
   position: relative;
+  border-bottom: 0.5px solid #272827;
+}
+
+.footer-title-box-wire {
+  height: 41px;
+  position: relative;
+  border-bottom: 0.5px solid #272827;
+  width: 940px;
+  left: 400px;
+}
+
+.footer-title {
   font-family: sans-serif;
   font-size: 22px;
   font-weight: 400;
-  margin: 0;
-  padding-left: 4px;
   color: #a4a5a4;
   letter-spacing: 0;
-  top: 13px;
-}
-
-#wire {
-  position: relative;
-  font-family: sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  margin: 0;
-  padding-left: 4px;
-  color: #a4a5a4;
-  letter-spacing: 0;
-  top: 73px;
-  float: left;
 }
 
 .view-work {
-  padding-left: 12px;
+  padding-left: 10px;
   font-size: 13px;
   font-family: sans-serif;
   color: #d6563a;
   text-decoration: none;
-}
-
-#footer-contents-work {
-  @include center(50%, 50.5%);
-
-  position: relative;
-  border-top: 0.5px solid #272827;
-  margin-top: 29px;
-}
-
-#footer-contents-news {
-  @include center(50%, 50.5%);
-
-  position: relative;
-  border-top: 0.5px solid #272827;
-  margin-top: 29px;
 }
 
 .col-3 {
@@ -343,12 +325,18 @@ li a:hover {
 }
 
 .col-3-wire {
+  position: relative;
   float: left;
   width: calc(100% / 3 - 60px);
+  margin: 0 67px 0 0;
 }
 
 .last {
   margin: 20px 0 0;
+}
+
+.last-wire {
+  margin: 0;
 }
 
 .work-title {
@@ -382,4 +370,27 @@ li a:hover {
   font-weight: 400;
   color: #d6563a;
   margin: 6px 0 0;
+}
+
+.wire {
+  position: absolute;
+
+  @include center(84.3%, 7.5%);
+}
+
+.columns-wire {
+  position: absolute;
+  width: 940px;
+  top: 51px;
+  left: 400px;
+}
+
+.wire-h1 {
+  width: 330px;
+  font-size: 34px;
+  font-weight: 550;
+  font-family: sans-serif;
+  color: #fefffe;
+  letter-spacing: 0;
+  line-height: 34px;
 }
