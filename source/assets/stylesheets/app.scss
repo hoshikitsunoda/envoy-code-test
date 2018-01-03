@@ -311,7 +311,7 @@ li a:hover {
   float: left;
 }
 
-#view-work {
+.view-work {
   padding-left: 12px;
   font-size: 13px;
   font-family: sans-serif;
@@ -319,7 +319,15 @@ li a:hover {
   text-decoration: none;
 }
 
-.footer-contents {
+#footer-contents-work {
+  @include center(50%, 50.5%);
+
+  position: relative;
+  border-top: 0.5px solid #272827;
+  margin-top: 29px;
+}
+
+#footer-contents-news {
   @include center(50%, 50.5%);
 
   position: relative;
@@ -332,6 +340,11 @@ li a:hover {
   float: left;
   width: calc(100% / 3 - 60px);
   margin: 20px 67px 0 0;
+}
+
+.col-3-wire {
+  float: left;
+  width: calc(100% / 3 - 60px);
 }
 
 .last {
