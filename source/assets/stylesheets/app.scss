@@ -238,6 +238,14 @@ li a:hover {
   bottom: 0;
 }
 
+#footer-wrapper {
+  @include center(50%, 50%);
+
+  position: relative;
+  width: 940px;
+  height: 800px;
+}
+
 #intro {
   @include center(13.5%, 50.5%);
 
@@ -268,6 +276,24 @@ li a:hover {
 
   height: 5px;
   width: 940px;
-  position: relative;
+  position: absolute;
   background-color: #272827;
+}
+
+.footer-contents {
+  position: relative;
+  margin: 0;
+  top: 250px;
+}
+
+#work {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 2px;
+  color: #a4a5a4;
+  letter-spacing: 0;
+  top: 16px;
 }
