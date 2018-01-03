@@ -280,7 +280,7 @@ li a:hover {
   background-color: #272827;
 }
 
-.footer-contents {
+.footer-contents-wrapper {
   position: relative;
   margin: 0;
   top: 250px;
@@ -292,16 +292,35 @@ li a:hover {
   font-size: 22px;
   font-weight: 400;
   margin: 0;
-  padding-left: 2px;
+  padding-left: 4px;
   color: #a4a5a4;
   letter-spacing: 0;
-  top: 16px;
+  top: 13px;
 }
 
 #view-work {
-  padding-left: 10px;
+  padding-left: 12px;
   font-size: 13px;
   font-family: sans-serif;
   color: #d6563a;
   text-decoration: none;
+}
+
+.footer-contents {
+  @include center(50%, 50.5%);
+
+  position: relative;
+  border-top: 0.5px solid #272827;
+  margin-top: 29px;
+}
+
+.col-3 {
+  position: relative;
+  float: left;
+  width: calc(100% / 3 - 60px);
+  margin: 20px 67px 0 0;
+}
+
+.last {
+  margin: 20px 0 0 0;
 }
