@@ -1,0 +1,43 @@
+#twitter-logo {
+  color: #6dddde;
+  font-size: 24px;
+  padding: 6px 0 0 19px;
+}
+
+#white-plus {
+  @include center(42%, 50%);
+
+  position: relative;
+  color: #fffefb;
+  font-size: 18px;
+}
+
+.chevrons {
+  @include center(94.5%, 80.5%);
+
+  position: relative;
+  width: 55px;
+  bottom: 0;
+  right: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+
+  &.left {
+    left: 0;
+    transform: translate3d(0, -50%, 0) rotate(-135deg);
+    border-top: 5px solid #dd4e36;
+    border-right: 5px solid #dd4e36;
+  }
+
+  &.right {
+    right: 0;
+    transform: translate3d(0, -50%, 0) rotate(45deg);
+    border-top: 5px solid #f8f9f8;
+    border-right: 5px solid #f8f9f8;
+  }
+}
