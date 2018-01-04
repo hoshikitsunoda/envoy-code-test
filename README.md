@@ -21,4 +21,4 @@ open index.html
 * express
 * browser-sync
 # Screenshot
-![envoy-code-test-issue-5](https://user-images.githubusercontent.com/27325328/34512295-470896f2-f016-11e7-8701-df014cc3be58.gif)
+![envoy-code-test-issue-5](https://user-images.githubusercontent.com/27325328/34546151-e7ff9e4e-f0a6-11e7-8166-bd4e960125e3.gif)
